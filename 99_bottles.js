@@ -1,6 +1,5 @@
 function bottleSong(amountOfBeers) {
  
-
   if (amountOfBeers === 1) {
     return `1 bottle of beer on the wall, 1 bottle of beer.
       Take one down and pass it around, no more bottles of beer on the wall.
@@ -13,7 +12,4 @@ function bottleSong(amountOfBeers) {
   }
 }
 
-console.log(bottlesOfBeerSong(99))
-};
-
-bottleSong();
+console.log(bottleSong(99));
